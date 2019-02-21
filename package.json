@@ -1,21 +1,21 @@
 {
-  "name": "circlecicustomer",
+  "name": "circleci-applitools",
   "version": "1.0.0",
-  "description": "README.md # PYTHON APPLICATION This Python application repo was created to showcase the integration between GitHub and CircleCI.",
+  "description": "README.md # CIRCLECI/APPLITOOLS This was created to show to show how an applitools script can be run through circleci everytime a git command is sent. # CircleCi-Applitools",
   "main": "ApplitoolsTest.js",
   "scripts": {
-    "test": "./node_modules/.bin/intern-runner config=tests/intern"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PattyRich/python_circleci.git"
+    "url": "git+https://github.com/crossbrowsertesting/CircleCi-Applitools.git"
   },
-  "author": "",
+  "author": "Patrick Richardson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PattyRich/python_circleci/issues"
+    "url": "https://github.com/crossbrowsertesting/CircleCi-Applitools/issues"
   },
-  "homepage": "https://github.com/PattyRich/python_circleci#readme",
+  "homepage": "https://github.com/crossbrowsertesting/CircleCi-Applitools#readme",
   "devDependencies": {
     "@applitools/eyes.webdriverio": "^2.0.1",
     "eyes.selenium": "0.0.83",
@@ -23,8 +23,5 @@
     "selenium-webdriver": "^3.6.0",
     "webdriverio": "^4.14.2"
   },
-  "dependencies": {
-    "cbt_tunnels": "0.0.34",
-    "digdug": "theintern/digdug"
-  }
+  "dependencies": {}
 }
