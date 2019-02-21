@@ -1,0 +1,30 @@
+{
+  "name": "circlecicustomer",
+  "version": "1.0.0",
+  "description": "README.md # PYTHON APPLICATION This Python application repo was created to showcase the integration between GitHub and CircleCI.",
+  "main": "ApplitoolsTest.js",
+  "scripts": {
+    "test": "./node_modules/.bin/intern-runner config=tests/intern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PattyRich/python_circleci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PattyRich/python_circleci/issues"
+  },
+  "homepage": "https://github.com/PattyRich/python_circleci#readme",
+  "devDependencies": {
+    "@applitools/eyes.webdriverio": "^2.0.1",
+    "eyes.selenium": "0.0.83",
+    "request": "^2.88.0",
+    "selenium-webdriver": "^3.6.0",
+    "webdriverio": "^4.14.2"
+  },
+  "dependencies": {
+    "cbt_tunnels": "0.0.34",
+    "digdug": "theintern/digdug"
+  }
+}
